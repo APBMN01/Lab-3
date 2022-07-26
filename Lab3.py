@@ -13,9 +13,9 @@ def bubble_sort(arr, sorting_order):
     n = len(arr_result)
     if n == 0:
         return 0
-    elif n > 10:
+    if n > 10:
         return 1
-    elif n < 10:
+    if n < 10:
         return 2
 
     for e in arr_result:
